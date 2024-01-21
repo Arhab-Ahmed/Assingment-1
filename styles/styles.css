@@ -14,6 +14,7 @@
     color:  var(--Dark-02, #444343);
     padding-left: 850px;
     padding-right: 100px;
+    font-family: 'Work Sans', sans-serif;
     
     
 }
@@ -65,8 +66,9 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--Dark-02, #444343);
-    padding-right: 300px;
+    padding-right: 100px;
     padding-left: 700px;
+    font-family: 'Work Sans', sans-serif;
 }
 .list{
     padding-left: 720px;
@@ -75,6 +77,87 @@
     font-size: 16px;
     font-weight: 400;
     
+}
+/* plans styles */
+.MY-plans{
+    text-align: center;
+}
+.third-section{
+    display: flex;
+    gap: 100px;
+    margin-left: 160px;
+    margin-bottom: 100px;
     
+}
+.title-2{
+    text-align: center;
+    color: var(--Dak-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
     
+}
+.discription-2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Dark-02, #444343);
+    font-family: 'Work Sans', sans-serif;
+}
+.picture{
+    background-image: url('../new-year-new-me-main/images/gradient2.png'),url('../new-year-new-me-main/images/watch.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    margin-bottom: 80px;
+}
+.title-3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 80px;
+    padding-right: 800px;
+    padding-left: 50px;
+    color: #FFF;
+
+}
+.primary-btn-2{
+    padding: 15px 25px;
+    background: white;
+    border-radius: 5px;
+    color: #F15B22;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.btn-2{
+    padding-left: 40px;
+}
+
+/* footer styles*/
+.footer{
+    background: var(--Dark-01, #151414);
+    height: 450px;
+}
+.future{
+    padding-left: 200px;
+}
+.title-4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 80px;
+    color: #be2424;
+}
+.discription-3{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-right: 800px;
+    font-family: 'Work Sans', sans-serif;
+}
+.future img{
+    padding-left: 10px;
 }
